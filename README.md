@@ -46,19 +46,13 @@ To run Nike Pulse locally, you will need to initialize the backend AI engine and
 Prerequisites
 * Python 3.8+ installed on your system.
 * Node.js & npm installed.
-Step1 :Step 1: Clone the Repository.
+Step1 : Clone the Repository.
 Step 2: Initialize the AI Brain (Backend)
 It is best practice to run the ML models inside an isolated environment to prevent library conflicts.
 
 A. Create and Activate Virtual Environment:
 bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
+ 
 B. Install Core API & Data Handling:
 bash
 pip install fastapi uvicorn pandas numpy
