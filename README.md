@@ -73,7 +73,7 @@ pip install vaderSentiment
 
 D. Start the Live Server:
 bash
-# The API will boot up on port 8000
+ The API will boot up on port 8000
 python -m uvicorn app:app --reload
 
 Step 3: Launch the Dashboard (Frontend)
